@@ -24,7 +24,7 @@ This project contain the web app where users can view and manager their timezone
 
 Steps to get timezone-ui up and running:
 - Make sure that the backend is running as mentioned above
-- Configure backend server parameters in <timezone-ui-root>/src/main/resources/application.properties
+- Configure backend server parameters in timezone-ui-root/src/main/resources/application.properties
 - To build the project and generate artifacts, run: mvn clean install
 - To start the backend as server, run: mvn spring-boot:run
 - From a broswer, go to http://localhost:8092/
