@@ -13,7 +13,7 @@ Timezone Controller: contain several APIs to manager timezones
 
 Steps to get timezone-backend up and running:
 - Make sure that mySql is installed and create an empty schema, ex. timezones
-- Configure mySql connection parametes in <timezone-backend-root>/src/main/resources/application.properties
+- Configure mySql connection parametes in timezone-backend-root/src/main/resources/application.properties
 - To build the project, generate artifacts and run the test cases, run: mvn clean install
 - To run the test cases only, run: mvn surefire:test
 - To start the backend as server, run: mvn spring-boot:run
@@ -27,7 +27,7 @@ Steps to get timezone-ui up and running:
 - Configure backend server parameters in <timezone-ui-root>/src/main/resources/application.properties
 - To build the project and generate artifacts, run: mvn clean install
 - To start the backend as server, run: mvn spring-boot:run
-- From a broswer, go to http://<hostname>:8092/
+- From a broswer, go to http://localhost:8092/
 - The default admin username / password are: admin@timezone.com / password
 
 Known Issues
