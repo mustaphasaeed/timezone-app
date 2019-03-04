@@ -1,0 +1,24 @@
+@import "../valo/valo.scss";
+
+@mixin sample {
+
+  @include valo;
+
+	.app-label {
+		font-family: times, Times New Roman, times-roman, georgia, serif;
+		font-size: 44px;
+		line-height: 40px;
+		letter-spacing: -1px;
+		color: #444;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		font-weight: 100;
+	}
+	
+	.v-nativebutton {
+ 		color: blue;
+ 		background: transparent none repeat scroll 0 0;
+ 		text-decoration: underline;
+ 		border: 0 none;
+	}
+}
